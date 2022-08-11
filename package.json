@@ -1,15 +1,25 @@
 {
 	"name": "fcc-learn-npm-package-json",
-	"dependencies": {
-		"express": "^4.14.0"
+	
+	"author": "chris",
+	
+	"description" : "A project to learn about NPM ",
+	
+	"keywords" : ["freecodecamp", "learning", "pakage management"], 
+	
+	"license" : "MIT", 
+	
+	"version" : "1.0.0",
+	  "dependencies": {
+		  "express": "^4.14.0"
 	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://idontknow/todo.git"
-	},
-	"author": "chris"
-}
+	  "main": "server.js",
+	  "scripts": {
+		  "start": "node server.js"
+	  },
+	  "repository": {
+		  "type": "git",
+		  "url": "https://idontknow/todo.git"
+	  }
+  }
+  
